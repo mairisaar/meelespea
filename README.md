@@ -4,8 +4,8 @@
 
 - echo "# meelespea" >> README.md -- seda ei ole vaja käsureale kirjutada
 - ```git init``` -- seda teed ainult esimesel korral
-- ```git add README.md``` -- kui lisad kõik selle kausta failid, siis käsk on: **git add .**
-- ```git commit -m "first commit"``` -- selline sõnum on ainult esimesl commitil, edaspidi muuda sõnumi tekst vastavalt sellele, mida failis muutsid
+- ```git add README.md``` -- kui lisad kõik selle kausta failid, siis käsk on: ```git add .```
+- ```git commit -m "first commit"``` -- selline sõnum on ainult esimesel commitil, edaspidi muuda sõnumi tekst vastavalt sellele, mida failis muutsid
 - ```git remote add origin https://github.com/mairisaar/meelespea.git``` -- see käsk ainult esimesel korral sellesse repositooriumisse midagi lisades
 - ```git push -u origin master``` -- iga kord et lükata fail github-i
 
